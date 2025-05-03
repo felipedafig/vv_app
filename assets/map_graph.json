@@ -1,0 +1,37 @@
+{
+  "nodes": {
+    "A": { "x": 420, "y": 360, "name": "Auditorium" },
+    "B": { "x": 360, "y": 320, "name": "Center" },
+    "C": { "x": 240, "y": 370, "name": "Canteen" },
+    "D": { "x": 285, "y": 425, "name": "Entrance" },
+    "E": { "x": 370, "y": 500, "name": "Drama Room" },
+    "F": { "x": 420, "y": 490, "name": "Music Room" },
+    "G": { "x": 425, "y": 430, "name": "IT Support" },
+    "H": { "x": 425, "y": 430, "name": "Reception" },
+    "I": { "x": 425, "y": 430, "name": "Podcast Room" },
+    "J": { "x": 425, "y": 430, "name": "Maker Space" },
+    "L": { "x": 300, "y": 250, "name": "Right Reception" }
+  },
+  "edges": [
+    { "from": "A", "to": "B" },
+    { "from": "A", "to": "J" },
+    { "from": "B", "to": "C" },
+    { "from": "B", "to": "D" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "E" },
+    { "from": "E", "to": "F" },
+    { "from": "F", "to": "A" },
+    { "from": "H", "to": "B" },
+    { "from": "I", "to": "B" },
+    { "from": "J", "to": "B" },
+    { "from": "K", "to": "B" },
+    { "from": "L", "to": "C" },
+    { "from": "L", "to": "D" },
+    { "from": "L", "to": "E" },
+    { "from": "L", "to": "G" },
+    { "from": "L", "to": "H" },
+    { "from": "G", "to": "I" },
+    { "from": "L", "to": "J" },
+    { "from": "L", "to": "B" }
+  ]
+} 
