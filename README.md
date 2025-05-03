@@ -55,3 +55,4 @@ via-vision/
 - MaterialIcons from react-native-vector-icons for all icons
 - Navigation is handled by React Navigation with a bottom tab navigator
 - Splash screen uses expo-linear-gradient for the background effect 
+# vv_app
